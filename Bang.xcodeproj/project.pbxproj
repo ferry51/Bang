@@ -26,6 +26,8 @@
 		B0445C2B20630EEC00E7608C /* horseCard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0445C2920630EEC00E7608C /* horseCard.cpp */; };
 		B0445C2E20630EFA00E7608C /* specialStaticCard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0445C2C20630EFA00E7608C /* specialStaticCard.cpp */; };
 		B0445C35206943AA00E7608C /* playingCard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0445C33206943AA00E7608C /* playingCard.cpp */; };
+		B0AB1AC12279D7BD00F13DCB /* human.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0AB1ABF2279D7BD00F13DCB /* human.cpp */; };
+		B0AB1AC42279F7E600F13DCB /* bot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0AB1AC22279F7E600F13DCB /* bot.cpp */; };
 		B0B62805207C15620047E0C7 /* cards.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = B0445C05206275BE00E7608C /* cards.txt */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
@@ -63,7 +65,7 @@
 		B0445C002061236900E7608C /* common.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = common.hpp; sourceTree = "<group>"; };
 		B0445C022062758900E7608C /* deckLoader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = deckLoader.cpp; sourceTree = "<group>"; };
 		B0445C032062758900E7608C /* deckLoader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = deckLoader.hpp; sourceTree = "<group>"; };
-		B0445C05206275BE00E7608C /* cards.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cards.txt; sourceTree = "<group>"; };
+		B0445C05206275BE00E7608C /* cards.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cards.txt; path = ../../../Bang/Excel/cards.txt; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0445C0920630DF700E7608C /* actionCard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = actionCard.cpp; sourceTree = "<group>"; };
 		B0445C0A20630DF700E7608C /* actionCard.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = actionCard.hpp; sourceTree = "<group>"; };
 		B0445C0C20630E0900E7608C /* staticCard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = staticCard.cpp; sourceTree = "<group>"; };
@@ -90,6 +92,10 @@
 		B0445C2D20630EFA00E7608C /* specialStaticCard.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = specialStaticCard.hpp; sourceTree = "<group>"; };
 		B0445C33206943AA00E7608C /* playingCard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = playingCard.cpp; sourceTree = "<group>"; };
 		B0445C34206943AA00E7608C /* playingCard.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = playingCard.hpp; sourceTree = "<group>"; };
+		B0AB1ABF2279D7BD00F13DCB /* human.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = human.cpp; sourceTree = "<group>"; };
+		B0AB1AC02279D7BD00F13DCB /* human.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = human.hpp; sourceTree = "<group>"; };
+		B0AB1AC22279F7E600F13DCB /* bot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bot.cpp; sourceTree = "<group>"; };
+		B0AB1AC32279F7E600F13DCB /* bot.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = bot.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +151,10 @@
 				B0445BF82060FEC500E7608C /* game.hpp */,
 				B0445BFA2061228A00E7608C /* player.cpp */,
 				B0445BFB2061228A00E7608C /* player.hpp */,
+				B0AB1ABF2279D7BD00F13DCB /* human.cpp */,
+				B0AB1AC02279D7BD00F13DCB /* human.hpp */,
+				B0AB1AC22279F7E600F13DCB /* bot.cpp */,
+				B0AB1AC32279F7E600F13DCB /* bot.hpp */,
 				B0445C022062758900E7608C /* deckLoader.cpp */,
 				B0445C032062758900E7608C /* deckLoader.hpp */,
 				B0445BFD2061229A00E7608C /* card.cpp */,
@@ -268,6 +278,7 @@
 				B0445C2820630EE000E7608C /* pistolCard.cpp in Sources */,
 				B0445C042062758900E7608C /* deckLoader.cpp in Sources */,
 				B0445C2B20630EEC00E7608C /* horseCard.cpp in Sources */,
+				B0AB1AC12279D7BD00F13DCB /* human.cpp in Sources */,
 				B0445BF92060FEC500E7608C /* game.cpp in Sources */,
 				B0445C1120630E1900E7608C /* roleCard.cpp in Sources */,
 				B0445BFC2061228A00E7608C /* player.cpp in Sources */,
@@ -275,6 +286,7 @@
 				B0445BFF2061229A00E7608C /* card.cpp in Sources */,
 				B0445C0B20630DF700E7608C /* actionCard.cpp in Sources */,
 				B0445C35206943AA00E7608C /* playingCard.cpp in Sources */,
+				B0AB1AC42279F7E600F13DCB /* bot.cpp in Sources */,
 				B0445C2E20630EFA00E7608C /* specialStaticCard.cpp in Sources */,
 				B0445C2420630EBC00E7608C /* specialActionCard.cpp in Sources */,
 				B0445C1820630E6700E7608C /* missCard.cpp in Sources */,
