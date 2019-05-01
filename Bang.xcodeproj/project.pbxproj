@@ -26,7 +26,7 @@
 		B0445C2B20630EEC00E7608C /* horseCard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0445C2920630EEC00E7608C /* horseCard.cpp */; };
 		B0445C2E20630EFA00E7608C /* specialStaticCard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0445C2C20630EFA00E7608C /* specialStaticCard.cpp */; };
 		B0445C35206943AA00E7608C /* playingCard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0445C33206943AA00E7608C /* playingCard.cpp */; };
-		B0B62805207C15620047E0C7 /* cards.csv in CopyFiles */ = {isa = PBXBuildFile; fileRef = B0445C05206275BE00E7608C /* cards.csv */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		B0B62805207C15620047E0C7 /* cards.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = B0445C05206275BE00E7608C /* cards.txt */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,7 +45,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 6;
 			files = (
-				B0B62805207C15620047E0C7 /* cards.csv in CopyFiles */,
+				B0B62805207C15620047E0C7 /* cards.txt in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,7 +63,7 @@
 		B0445C002061236900E7608C /* common.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = common.hpp; sourceTree = "<group>"; };
 		B0445C022062758900E7608C /* deckLoader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = deckLoader.cpp; sourceTree = "<group>"; };
 		B0445C032062758900E7608C /* deckLoader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = deckLoader.hpp; sourceTree = "<group>"; };
-		B0445C05206275BE00E7608C /* cards.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cards.csv; sourceTree = "<group>"; };
+		B0445C05206275BE00E7608C /* cards.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cards.txt; sourceTree = "<group>"; };
 		B0445C0920630DF700E7608C /* actionCard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = actionCard.cpp; sourceTree = "<group>"; };
 		B0445C0A20630DF700E7608C /* actionCard.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = actionCard.hpp; sourceTree = "<group>"; };
 		B0445C0C20630E0900E7608C /* staticCard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = staticCard.cpp; sourceTree = "<group>"; };
@@ -133,7 +133,7 @@
 		B0445C06206275CA00E7608C /* Excel */ = {
 			isa = PBXGroup;
 			children = (
-				B0445C05206275BE00E7608C /* cards.csv */,
+				B0445C05206275BE00E7608C /* cards.txt */,
 			);
 			path = Excel;
 			sourceTree = "<group>";
