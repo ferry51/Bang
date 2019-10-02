@@ -26,9 +26,7 @@
 		B0445C2B20630EEC00E7608C /* horseCard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0445C2920630EEC00E7608C /* horseCard.cpp */; };
 		B0445C2E20630EFA00E7608C /* specialStaticCard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0445C2C20630EFA00E7608C /* specialStaticCard.cpp */; };
 		B0445C35206943AA00E7608C /* playingCard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0445C33206943AA00E7608C /* playingCard.cpp */; };
-		B0AB1AC12279D7BD00F13DCB /* human.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0AB1ABF2279D7BD00F13DCB /* human.cpp */; };
 		B0AB1AC42279F7E600F13DCB /* bot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0AB1AC22279F7E600F13DCB /* bot.cpp */; };
-		B0B62805207C15620047E0C7 /* cards.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = B0445C05206275BE00E7608C /* cards.txt */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,7 +45,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 6;
 			files = (
-				B0B62805207C15620047E0C7 /* cards.txt in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,7 +62,6 @@
 		B0445C002061236900E7608C /* common.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = common.hpp; sourceTree = "<group>"; };
 		B0445C022062758900E7608C /* deckLoader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = deckLoader.cpp; sourceTree = "<group>"; };
 		B0445C032062758900E7608C /* deckLoader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = deckLoader.hpp; sourceTree = "<group>"; };
-		B0445C05206275BE00E7608C /* cards.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cards.txt; path = ../../../Bang/Excel/cards.txt; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0445C0920630DF700E7608C /* actionCard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = actionCard.cpp; sourceTree = "<group>"; };
 		B0445C0A20630DF700E7608C /* actionCard.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = actionCard.hpp; sourceTree = "<group>"; };
 		B0445C0C20630E0900E7608C /* staticCard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = staticCard.cpp; sourceTree = "<group>"; };
@@ -92,9 +88,7 @@
 		B0445C2D20630EFA00E7608C /* specialStaticCard.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = specialStaticCard.hpp; sourceTree = "<group>"; };
 		B0445C33206943AA00E7608C /* playingCard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = playingCard.cpp; sourceTree = "<group>"; };
 		B0445C34206943AA00E7608C /* playingCard.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = playingCard.hpp; sourceTree = "<group>"; };
-		B0AB1ABF2279D7BD00F13DCB /* human.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = human.cpp; sourceTree = "<group>"; };
-		B0AB1AC02279D7BD00F13DCB /* human.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = human.hpp; sourceTree = "<group>"; };
-		B0AB1AC22279F7E600F13DCB /* bot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bot.cpp; sourceTree = "<group>"; };
+		B0AB1AC22279F7E600F13DCB /* bot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bot.cpp; sourceTree = "<group>"; usesTabs = 0; };
 		B0AB1AC32279F7E600F13DCB /* bot.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = bot.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,9 +103,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B03D5D482344AAC200C3621C /* Remotes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Remotes;
+			sourceTree = "<group>";
+		};
 		B0445BE42060478C00E7608C = {
 			isa = PBXGroup;
 			children = (
+				B03D5D482344AAC200C3621C /* Remotes */,
 				B0445BEF2060478C00E7608C /* Bang */,
 				B0445BEE2060478C00E7608C /* Products */,
 			);
@@ -128,45 +130,26 @@
 		B0445BEF2060478C00E7608C /* Bang */ = {
 			isa = PBXGroup;
 			children = (
-				B0445C002061236900E7608C /* common.hpp */,
-				B0445BF02060478C00E7608C /* main.cpp */,
-				B0445C07206275E700E7608C /* Source */,
-				B0445C06206275CA00E7608C /* Excel */,
+				B0445C07206275E700E7608C /* src */,
 			);
 			path = Bang;
 			sourceTree = "<group>";
 		};
-		B0445C06206275CA00E7608C /* Excel */ = {
+		B0445C07206275E700E7608C /* src */ = {
 			isa = PBXGroup;
 			children = (
-				B0445C05206275BE00E7608C /* cards.txt */,
-			);
-			path = Excel;
-			sourceTree = "<group>";
-		};
-		B0445C07206275E700E7608C /* Source */ = {
-			isa = PBXGroup;
-			children = (
+				B0445C002061236900E7608C /* common.hpp */,
+				B0445BF02060478C00E7608C /* main.cpp */,
 				B0445BF72060FEC500E7608C /* game.cpp */,
 				B0445BF82060FEC500E7608C /* game.hpp */,
 				B0445BFA2061228A00E7608C /* player.cpp */,
 				B0445BFB2061228A00E7608C /* player.hpp */,
-				B0AB1ABF2279D7BD00F13DCB /* human.cpp */,
-				B0AB1AC02279D7BD00F13DCB /* human.hpp */,
 				B0AB1AC22279F7E600F13DCB /* bot.cpp */,
 				B0AB1AC32279F7E600F13DCB /* bot.hpp */,
 				B0445C022062758900E7608C /* deckLoader.cpp */,
 				B0445C032062758900E7608C /* deckLoader.hpp */,
 				B0445BFD2061229A00E7608C /* card.cpp */,
 				B0445BFE2061229A00E7608C /* card.hpp */,
-				B0445C0820630DD700E7608C /* Cards */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		B0445C0820630DD700E7608C /* Cards */ = {
-			isa = PBXGroup;
-			children = (
 				B0445C33206943AA00E7608C /* playingCard.cpp */,
 				B0445C34206943AA00E7608C /* playingCard.hpp */,
 				B0445C0920630DF700E7608C /* actionCard.cpp */,
@@ -175,15 +158,6 @@
 				B0445C0D20630E0900E7608C /* staticCard.hpp */,
 				B0445C0F20630E1900E7608C /* roleCard.cpp */,
 				B0445C1020630E1900E7608C /* roleCard.hpp */,
-				B0445C1220630E3100E7608C /* ActionCards */,
-				B0445C2520630EC300E7608C /* StaticCards */,
-			);
-			path = Cards;
-			sourceTree = "<group>";
-		};
-		B0445C1220630E3100E7608C /* ActionCards */ = {
-			isa = PBXGroup;
-			children = (
 				B0445C1320630E5900E7608C /* bangCard.cpp */,
 				B0445C1420630E5900E7608C /* bangCard.hpp */,
 				B0445C1620630E6700E7608C /* missCard.cpp */,
@@ -196,13 +170,6 @@
 				B0445C2020630EAC00E7608C /* discardCard.hpp */,
 				B0445C2220630EBC00E7608C /* specialActionCard.cpp */,
 				B0445C2320630EBC00E7608C /* specialActionCard.hpp */,
-			);
-			path = ActionCards;
-			sourceTree = "<group>";
-		};
-		B0445C2520630EC300E7608C /* StaticCards */ = {
-			isa = PBXGroup;
-			children = (
 				B0445C2620630EE000E7608C /* pistolCard.cpp */,
 				B0445C2720630EE000E7608C /* pistolCard.hpp */,
 				B0445C2920630EEC00E7608C /* horseCard.cpp */,
@@ -210,7 +177,7 @@
 				B0445C2C20630EFA00E7608C /* specialStaticCard.cpp */,
 				B0445C2D20630EFA00E7608C /* specialStaticCard.hpp */,
 			);
-			path = StaticCards;
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,7 +207,7 @@
 		B0445BE52060478C00E7608C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Frantisek Stepanek";
 				TargetAttributes = {
 					B0445BEC2060478C00E7608C = {
@@ -255,6 +222,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = B0445BE42060478C00E7608C;
 			productRefGroup = B0445BEE2060478C00E7608C /* Products */;
@@ -278,7 +246,6 @@
 				B0445C2820630EE000E7608C /* pistolCard.cpp in Sources */,
 				B0445C042062758900E7608C /* deckLoader.cpp in Sources */,
 				B0445C2B20630EEC00E7608C /* horseCard.cpp in Sources */,
-				B0AB1AC12279D7BD00F13DCB /* human.cpp in Sources */,
 				B0445BF92060FEC500E7608C /* game.cpp in Sources */,
 				B0445C1120630E1900E7608C /* roleCard.cpp in Sources */,
 				B0445BFC2061228A00E7608C /* player.cpp in Sources */,
@@ -312,6 +279,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -319,6 +287,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -367,6 +336,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -374,6 +344,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
